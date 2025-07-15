@@ -8,6 +8,8 @@ public abstract class Count {
     protected int number;
     protected double sale;
 
+    public Count(){}
+
     public Count(Client client, int agency, int number) {
         this.client = client;
         this.agency = agency;
