@@ -10,6 +10,8 @@ public class AccountSaving extends Count {
         this.interestRate = interestRate;
     }
 
+    public AccountSaving() {}
+
     public void interestIncome(){
         if(this.sale > 0){
             double performance = this.sale * this.interestRate;

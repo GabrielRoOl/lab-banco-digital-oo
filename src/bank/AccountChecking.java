@@ -9,6 +9,8 @@ public class AccountChecking extends Count {
         this.specialCheckLimit= specialCheckLimit;
     }
 
+    public AccountChecking(){}
+
     @Override
     public void sake(double sake){
         double availableBalance = this.sale + this.specialCheckLimit;
