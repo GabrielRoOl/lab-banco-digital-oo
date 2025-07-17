@@ -4,9 +4,9 @@ public class AccountChecking extends Count {
 
     private double specialCheckLimit;
 
-    public AccountChecking(Client client, int agency, int number, double specialCheckLimit) {
+    public AccountChecking(Client client, int agency, int number) {
         super(client, agency, number);
-        this.specialCheckLimit= specialCheckLimit;
+        this.specialCheckLimit= 100;
     }
 
     public AccountChecking(){}

@@ -5,9 +5,9 @@ public class AccountSaving extends Count {
     // É importante guardar a taxa como um decimal. Ex: 0.5% = 0.005
     private double interestRate;
 
-    public AccountSaving(Client client, int agency, int number, double interestRate) {
+    public AccountSaving(Client client, int agency, int number) {
         super(client, agency, number);
-        this.interestRate = interestRate;
+        this.interestRate = 0.005;
     }
 
     public AccountSaving() {}

@@ -12,4 +12,5 @@ public class Client {
         this.cpf = cpf;
         this.bank = bank;
     }
+
 }

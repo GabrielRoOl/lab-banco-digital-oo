@@ -53,19 +53,4 @@ public abstract class Count {
         return sale;
     }
 
-    public void setClient(Client client) {
-        this.client = client;
-    }
-
-    public void setAgency(int agency) {
-        this.agency = agency;
-    }
-
-    public void setNumber(int number) {
-        this.number = number;
-    }
-
-    public void setSale(double sale) {
-        this.sale = sale;
-    }
 }
